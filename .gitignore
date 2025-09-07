@@ -4,9 +4,6 @@ node_modules/
 package-lock.json
 yarn.lock
 
-# =========================
-# Vendor libraries (BootstrapMade assets)
-assets/vendor/
 
 # =========================
 # PHP backend scripts (keep them private)
