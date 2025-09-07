@@ -16,4 +16,4 @@ I build **secure, automated cloud platforms** that empower developers and help b
 Questions, ideas, or a friendly hello — **reach out via email**, and I’ll get back to you promptly!  
 
 📧 Email: [mdahsan060@gmail.com]  
-🔗 Portfolio: [your-portfolio-link.com]  
+🔗 Portfolio: [https://ahsan598.github.io/FolioOne/]  

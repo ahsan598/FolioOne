@@ -7,7 +7,6 @@ yarn.lock
 # =========================
 # Vendor libraries (BootstrapMade assets)
 assets/vendor/
-assets/img/profile/
 
 # =========================
 # PHP backend scripts (keep them private)
