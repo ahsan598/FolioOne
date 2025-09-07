@@ -1,8 +1,9 @@
-# Hi, I’m Mohammed Ahsan 👋
+## Hi, I’m Mohammed Ahsan 👋
 **Platform Engineer | Cloud-Native Engineer | DevOps Engineer**
 
 I build **secure, automated cloud platforms** that empower developers and help businesses innovate safely.
 
+---
 
 ### Skills
 - **Cloud & Platforms:** AWS, EKS, Kubernetes, Helm, Docker  
@@ -11,6 +12,7 @@ I build **secure, automated cloud platforms** that empower developers and help b
 - **Security & Compliance:** RBAC, Pod Security Policies, IAM
 - **Other Tools:** Linux, Python, Bash, Git 
 
+---
 
 ### Contact
 Questions, ideas, or a friendly hello — **reach out via email**, and I’ll get back to you promptly!  
