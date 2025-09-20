@@ -17,6 +17,9 @@
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -26,78 +29,44 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Style
-  * Template URL: https://bootstrapmade.com/style-bootstrap-portfolio-template/
-  * Updated: Jul 02 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="portfolio-details-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+  <!-- Header Section -->
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <!-- Uncomment the line below if you also wish to use an text logo -->
-        <!-- <h1 class="sitename">Style</h1>  -->
+        <h1 class="sitename">FolioOne</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
-
-        <div class="profile-img">
-          <img src="assets/img/profile/profile-square-1.webp" alt="" class="img-fluid rounded-circle">
-        </div>
-
-        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">Alex Smith</h1>
-        </a>
-
-        <div class="social-links text-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
-
         <ul>
-          <li><a href="#hero">Home</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#services">Services</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
+      <!-- <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://wa.me/918374315451" target="_blank" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div> -->
+
     </div>
   </header>
+  <!-- End Header Section -->
 
   <main class="main">
 
@@ -115,7 +84,8 @@
     </div><!-- End Page Title -->
 
     <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+
+<!--    <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -150,13 +120,10 @@
                   </script>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Image" class="img-fluid">
+                      <img src="assets/img/portfolio/terraform/AWS Infra.png" alt="Portfolio Image" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-7.webp" alt="Portfolio Image" class="img-fluid">
-                    </div>
-                    <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-8.webp" alt="Portfolio Image" class="img-fluid">
+                      <img src="assets/img/portfolio/terraform/terraform-2.png" alt="Portfolio Image" class="img-fluid">
                     </div>
                   </div>
                   <div class="swiper-button-prev"></div>
@@ -164,29 +131,12 @@
                 </div>
               </div>
 
-              <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
-                <div class="row g-2 mt-3">
-                  <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-4.webp" alt="Gallery Image" class="img-fluid glightbox">
-                  </div>
-                  <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-6.webp" alt="Gallery Image" class="img-fluid glightbox">
-                  </div>
-                  <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-11.webp" alt="Gallery Image" class="img-fluid glightbox">
-                  </div>
-                  <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-12.webp" alt="Gallery Image" class="img-fluid glightbox">
-                  </div>
-                </div>
-              </div>
-
               <div class="tech-stack-badges" data-aos="fade-up" data-aos-delay="300">
-                <span>Angular</span>
-                <span>Express.js</span>
-                <span>PostgreSQL</span>
-                <span>GraphQL</span>
-                <span>Firebase</span>
+                <span>Terraform</span>
+                <span>AWS IAM</span>
+                <span>RDS-MySQL</span>
+                <span>AWS-VPC</span>
+                <span>AWS-EC2</span>
               </div>
             </div>
           </div>
@@ -195,7 +145,7 @@
             <div class="portfolio-details-content">
               <div class="project-meta">
                 <div class="badge-wrapper">
-                  <span class="project-badge">UX/UI Design</span>
+                  <span class="project-badge">Terraform</span>
                 </div>
                 <div class="date-client">
                   <div class="meta-item">
@@ -209,82 +159,37 @@
                 </div>
               </div>
 
-              <h2 class="project-title">Innovative Financial Dashboard App</h2>
-
-              <div class="project-website">
-                <i class="bi bi-link-45deg"></i>
-                <a href="#" target="_blank">projectwebsite.example.com</a>
-              </div>
+              <h2 class="project-title">AWS Multi-Tier Deployment using Terraform</h2>
 
               <div class="project-overview">
                 <p class="lead">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie.
-                </p>
-
-                <div class="accordion project-accordion" id="portfolio-details-projectAccordion">
-                  <div class="accordion-item" data-aos="fade-up">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-1" aria-expanded="true" aria-controls="collapseOne">
-                        <i class="bi bi-clipboard-data me-2"></i> Project Overview
-                      </button>
-                    </h2>
-                    <div id="portfolio-details-collapse-1" class="accordion-collapse collapse show" data-bs-parent="#portfolio-details-projectAccordion">
-                      <div class="accordion-body">
-                        <p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-2" aria-expanded="false" aria-controls="collapseTwo">
-                        <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
-                      </button>
-                    </h2>
-                    <div id="portfolio-details-collapse-2" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
-                      <div class="accordion-body">
-                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Sed porttitor lectus nibh.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-3" aria-expanded="false" aria-controls="collapseThree">
-                        <i class="bi bi-award me-2"></i> The Solution
-                      </button>
-                    </h2>
-                    <div id="portfolio-details-collapse-3" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
-                      <div class="accordion-body">
-                        <p>Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  Designed and deployed a multi-tier web application infrastructure on AWS using Terraform (IaC). The setup provisions a custom VPC, frontend & backend EC2 instances, and a managed RDS MySQL database with secure networking and role-based access.
+                </p>                
               </div>
+
 
               <div class="project-features" data-aos="fade-up" data-aos-delay="300">
                 <h3><i class="bi bi-stars"></i> Key Features</h3>
                 <div class="row g-3">
                   <div class="col-md-6">
                     <ul class="feature-list">
-                      <li><i class="bi bi-check2-circle"></i> Real-time Data Visualization</li>
-                      <li><i class="bi bi-check2-circle"></i> User Role Management</li>
-                      <li><i class="bi bi-check2-circle"></i> Secure Authentication</li>
+                      <li><i class="bi bi-check2-circle"></i> Automated provisioning with Terraform</li>
+                      <li><i class="bi bi-check2-circle"></i> Public & Private Subnets, Route Table, NAT Gateway</li>
+                      <li><i class="bi bi-check2-circle"></i> Fine-grained IAM roles & Security Groups</li>
                     </ul>
                   </div>
                   <div class="col-md-6">
                     <ul class="feature-list">
-                      <li><i class="bi bi-check2-circle"></i> Customizable Dashboards</li>
-                      <li><i class="bi bi-check2-circle"></i> Data Export Options</li>
-                      <li><i class="bi bi-check2-circle"></i> Multi-device Support</li>
+                      <li><i class="bi bi-check2-circle"></i> Frontend & Backend EC2 Instances</li>
+                      <li><i class="bi bi-check2-circle"></i> AWS RDS (MySQL) with restricted access</li>
+                      <li><i class="bi bi-check2-circle"></i> Reusable Terraform modules for flexibility</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
               <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
-                <a href="#" class="btn-view-project">View Live Project</a>
+                <a href="https://github.com/ahsan598/terraform-aws-multitier-webapp" class="btn-view-project">View Live Project</a>
                 <a href="#" class="btn-next-project">Next Project <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
@@ -293,7 +198,319 @@
 
       </div>
 
-    </section><!-- /Portfolio Details Section -->
+    </section>  -->
+
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="project-hero">
+          <div class="hero-content" data-aos="fade-up">
+            <div class="project-category"></div>
+            <h1 class="project-title">Multi-Tier Web Application Infrastructure on AWS using Terraform</h1>
+            <!-- <p class="project-subtitle">Designed and deployed a scalable and secure multi-tier web application on AWS using Terraform (Infrastructure as Code). The architecture includes a custom VPC, application servers, and a managed database layer with secure networking and role-based access control.</p> -->
+          </div>
+
+          <div class="project-meta-grid" data-aos="fade-up" data-aos-delay="200">
+            <div class="meta-column">
+              <div class="meta-label">Client</div>
+              <div class="meta-value">GreenStyle Collective</div>
+            </div>
+            <div class="meta-column">
+              <div class="meta-label">Timeline</div>
+              <div class="meta-value">8 Months</div>
+            </div>
+            <div class="meta-column">
+              <div class="meta-label">Year</div>
+              <div class="meta-value">2024</div>
+            </div>
+            <div class="meta-column">
+              <div class="meta-label">Services</div>
+              <div class="meta-value">UX/UI Design, Development</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-showcase" data-aos="zoom-in" data-aos-delay="100">
+          <div class="main-visual">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 4000
+                  },
+                  "effect": "creative",
+                  "creativeEffect": {
+                    "prev": {
+                      "shadow": false,
+                      "translate": ["-120%", 0, -500]
+                    },
+                    "next": {
+                      "shadow": false,
+                      "translate": ["120%", 0, -500]
+                    }
+                  },
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-5.webp" alt="Project showcase" class="img-fluid" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-7.webp" alt="Project showcase" class="img-fluid" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-8.webp" alt="Project showcase" class="img-fluid" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="project-overview" data-aos="fade-up">
+                <h2>Project Overview</h2>
+                <p class="overview-text">Designed and deployed a scalable and secure multi-tier web application on AWS using Terraform (Infrastructure as Code). The architecture includes a custom VPC, application servers, and a managed database layer with secure networking and role-based access control.</p>
+
+                <!-- <div class="challenge-solution">
+                  <div class="challenge-block" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Approach</h3>
+                    <ul>
+                      <li>Automated infrastructure provisioning with Terraform to ensure repeatability and version control.</li>
+                      <li>Created a custom VPC with public and private subnets for isolation of application layers.</li>
+                      <li>Configured EC2 instances for frontend and backend application tiers with appropriate security groups.</li>
+                      <li>Deployed an Amazon RDS MySQL instance in a private subnet to securely manage application data.</li>
+                      <li>Implemented IAM roles and least-privilege policies for secure access management.</li>
+                    </ul>
+                  </div>
+
+                  <div class="solution-block" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Our Approach</h3>
+                    <p>Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Diam vulputate ut pharetra sit amet aliquam id diam. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing.</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="approach-section" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="approach-intro">
+                <h3>Approach</h3>
+                <!-- <p>Short description about your overall approach in solving the project.</p> -->
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="approach-list">
+
+                <div class="approach-row" data-aos="fade-up" data-aos-delay="150">
+                  <div class="approach-icon">
+                    <i class="bi bi-code-slash"></i>
+                  </div>
+                  <div class="approach-content">
+                    <h4>Infrastructure as Code</h4>
+                    <p>Automated provisioning with Terraform to ensure repeatability and version control.</p>
+                  </div>
+                </div>
+
+                <div class="approach-row" data-aos="fade-up" data-aos-delay="200">
+                  <div class="approach-icon">
+                    <i class="bi bi-diagram-3"></i>
+                  </div>
+                  <div class="approach-content">
+                    <h4>Custom VPC Design</h4>
+                    <p>Created public and private subnets for proper isolation of application layers.</p>
+                  </div>
+                </div>
+
+                <div class="approach-row" data-aos="fade-up" data-aos-delay="250">
+                  <div class="approach-icon">
+                    <i class="bi bi-shield-lock"></i>
+                  </div>
+                  <div class="approach-content">
+                    <h4>Secure Networking</h4>
+                    <p>Configured security groups and IAM roles with least-privilege policies.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="metrics-showcase" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="metrics-content">
+                <h3>Impact &amp; Results</h3>
+                <p>Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="metrics-grid">
+                <div class="metric-item" data-aos="fade-up" data-aos-delay="200">
+                  <div class="metric-number">250%</div>
+                  <div class="metric-label">Increase in conversions</div>
+                </div>
+                <div class="metric-item" data-aos="fade-up" data-aos-delay="250">
+                  <div class="metric-number">45k</div>
+                  <div class="metric-label">Monthly active users</div>
+                </div>
+                <div class="metric-item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="metric-number">4.9</div>
+                  <div class="metric-label">User satisfaction score</div>
+                </div>
+                <div class="metric-item" data-aos="fade-up" data-aos-delay="350">
+                  <div class="metric-number">68%</div>
+                  <div class="metric-label">Reduced bounce rate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="technology-stack" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-3">
+              <h3>Technology Stack</h3>
+            </div>
+            <div class="col-lg-9">
+              <div class="tech-categories">
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="150">
+                  <div class="category-title">Frontend</div>
+                  <div class="tech-list">
+                    <span class="tech-item">React</span>
+                    <span class="tech-item">TypeScript</span>
+                    <span class="tech-item">Styled Components</span>
+                  </div>
+                </div>
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+                  <div class="category-title">Backend</div>
+                  <div class="tech-list">
+                    <span class="tech-item">Node.js</span>
+                    <span class="tech-item">PostgreSQL</span>
+                    <span class="tech-item">GraphQL</span>
+                  </div>
+                </div>
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="250">
+                  <div class="category-title">Infrastructure</div>
+                  <div class="tech-list">
+                    <span class="tech-item">AWS</span>
+                    <span class="tech-item">Docker</span>
+                    <span class="tech-item">Kubernetes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="process-gallery" data-aos="fade-up" data-aos-delay="100">
+          <h3>Design Process</h3>
+          <div class="gallery-masonry">
+            <div class="gallery-item large" data-aos="fade-up" data-aos-delay="150">
+              <img src="assets/img/portfolio/portfolio-11.webp" alt="Design process" class="img-fluid glightbox" loading="lazy">
+              <div class="gallery-caption">User Research &amp; Personas</div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/portfolio/portfolio-12.webp" alt="Design process" class="img-fluid glightbox" loading="lazy">
+              <div class="gallery-caption">Wireframes</div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="250">
+              <img src="assets/img/portfolio/portfolio-3.webp" alt="Design process" class="img-fluid glightbox" loading="lazy">
+              <div class="gallery-caption">Prototypes</div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/portfolio/portfolio-4.webp" alt="Design process" class="img-fluid glightbox" loading="lazy">
+              <div class="gallery-caption">Final Design</div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="key-features-section" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="features-intro">
+                <h3>Key Features</h3>
+                <!-- <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="features-list">
+                <div class="feature-row" data-aos="fade-up" data-aos-delay="150">
+                  <div class="feature-icon">
+                    <i class="bi bi-search"></i>
+                  </div>
+                  <div class="feature-content">
+                    <h4>Advanced Search Filters</h4>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+                <div class="feature-row" data-aos="fade-up" data-aos-delay="200">
+                  <div class="feature-icon">
+                    <i class="bi bi-heart"></i>
+                  </div>
+                  <div class="feature-content">
+                    <h4>Sustainability Scoring</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</p>
+                  </div>
+                </div>
+                <div class="feature-row" data-aos="fade-up" data-aos-delay="250">
+                  <div class="feature-icon">
+                    <i class="bi bi-people"></i>
+                  </div>
+                  <div class="feature-content">
+                    <h4>Community Reviews</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-footer" data-aos="fade-up" data-aos-delay="200">
+          <div class="footer-navigation">
+            <a href="#" class="nav-link prev-project">
+              <span class="nav-direction">Previous</span>
+              <span class="nav-title">Digital Banking App</span>
+            </a>
+            <a href="https://github.com/ahsan598/terraform-aws-multitier-webapp" class="nav-link all-projects">
+              <i class="btn-view-project"></i>
+              <span>View Live Project</span>
+            </a>
+            <a href="#" class="nav-link next-project">
+              <span class="nav-direction">Next</span>
+              <span class="nav-title">Healthcare Dashboard</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- /Portfolio Details Section -->
 
   </main>
 
@@ -310,10 +527,6 @@
         <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
