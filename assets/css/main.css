@@ -2727,7 +2727,7 @@ Commenting Out Until Needed */
 }
 
 .portfolio-details .approach-section .approach-intro h3 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 1rem;
   color: var(--heading-color);
@@ -2778,8 +2778,7 @@ Commenting Out Until Needed */
   margin-bottom: 0;
 }
 
-
-.portfolio-details .metrics-showcase {
+/* .portfolio-details .metrics-showcase {
   padding: 4rem 0;
   background-color: color-mix(in srgb, var(--surface-color), transparent 50%);
   margin: var(--section-spacing) -15px;
@@ -2822,7 +2821,7 @@ Commenting Out Until Needed */
   font-size: 0.9rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   line-height: 1.4;
-}
+} */
 
 .portfolio-details .technology-stack {
   margin-bottom: var(--section-spacing);
@@ -2831,10 +2830,10 @@ Commenting Out Until Needed */
 }
 
 .portfolio-details .technology-stack h3 {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
   color: var(--heading-color);
-  margin-bottom: 0;
 }
 
 .portfolio-details .technology-stack .tech-categories {
@@ -2870,6 +2869,7 @@ Commenting Out Until Needed */
   background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
   transform: translateY(-2px);
 }
+
 
 /* .portfolio-details .process-gallery {
   margin-bottom: var(--section-spacing);
@@ -2941,7 +2941,7 @@ Commenting Out Until Needed */
 }
 
 .portfolio-details .key-features-section .features-intro h3 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 1rem;
   color: var(--heading-color);
